@@ -1,0 +1,1 @@
+console.log('oi, eu sou a pagina inicial');
