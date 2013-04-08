@@ -10,9 +10,9 @@ describe('ProgressionValidator', function () {
 
 	it ('Deve retornar um array ["pg"] quando tratar-se de uma progressao geometrica', function () {
 
-		expect(ProgressionValidator([1, 3, 5])).toEqual(['pg']);
-		expect(ProgressionValidator([10, 8, 6])).toEqual(['pg']);
-		expect(ProgressionValidator([-3, -7, -11])).toEqual(['pg']);
+		expect(ProgressionValidator([1, 3, 9])).toEqual(['pg']);
+		expect(ProgressionValidator([20, 10, 5])).toEqual(['pg']);
+		expect(ProgressionValidator([-3, -6, -12])).toEqual(['pg']);
 
 	});
 
