@@ -17,7 +17,7 @@ function ProgressionValidator(arr) {
 	}
 	if (isPA) ret.push('pa');
 
-	//define a constate R da PG
+	//define a constante R da PG
 	r = arr[1] / arr[0];
 
 	var isPG = true;
